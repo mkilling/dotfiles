@@ -1,0 +1,16 @@
+[alias]
+	ci = commit
+	co = checkout
+	st = status
+	b = branch
+	lol = log --oneline --graph
+	stash-unapply = !git stash show -p | git apply -R
+	dt = difftool
+	mt = mergetool
+[merge]
+	tool = kdiff3
+[diff]
+	tool = kdiff3
+[user]
+	name = Marvin Killing
+	email = marvinkilling@gmail.com
